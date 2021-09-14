@@ -1,7 +1,0 @@
-D:\Tool\SCleaner\SCleaner\bin\Debug\SCleaner.exe.config
-D:\Tool\SCleaner\SCleaner\bin\Debug\SCleaner.exe
-D:\Tool\SCleaner\SCleaner\bin\Debug\SCleaner.pdb
-D:\Tool\SCleaner\SCleaner\obj\Debug\SCleaner.csproj.AssemblyReference.cache
-D:\Tool\SCleaner\SCleaner\obj\Debug\SCleaner.csproj.CoreCompileInputs.cache
-D:\Tool\SCleaner\SCleaner\obj\Debug\SCleaner.exe
-D:\Tool\SCleaner\SCleaner\obj\Debug\SCleaner.pdb
