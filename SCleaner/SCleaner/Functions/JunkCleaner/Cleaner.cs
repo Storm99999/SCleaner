@@ -1,4 +1,4 @@
-﻿using SCleaner.Functions.Colorful_Console;
+using SCleaner.Functions.Colorful_Console;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -64,6 +64,7 @@ namespace SCleaner.Functions.JunkCleaner
 
                     CC.WriteLineSuccess("[+] Deleted "+ dir);
                 }
+                Directory.Delete(ProjectDirs, true);
             }
             else
             {
@@ -83,9 +84,9 @@ namespace SCleaner.Functions.JunkCleaner
                 {
                     File.Delete(files);
                     FileInfo fileInfo = new FileInfo(files);
-
                     CC.WriteLineSuccess("[+] Deleted " + fileInfo.FullName);
                 }
+                Directory.Delete(bdInstaller,true);
             }
             else
             {
@@ -104,6 +105,7 @@ namespace SCleaner.Functions.JunkCleaner
 
                     CC.WriteLineSuccess("[+] Deleted " + fileInfo.FullName);
                 }
+                Directory.Delete(DnSpy, true);
             }
             else
             {
